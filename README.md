@@ -1,3 +1,5 @@
+# llama-cpp-python
+
 > [!TIP]
 > Maximum contexts window size to run with RTX 3050 4GB Laptop GPU using
 > llama-cpp-python settings:
@@ -18,3 +20,13 @@
 | ggml-org | Qwen 3 | 4B | Q4_K_M | 23K | [Qwen3-4B-Q4_K_M.gguf](https://huggingface.co/ggml-org/Qwen3-4B-GGUF/blob/main/Qwen3-4B-Q4_K_M.gguf) |
 | ggml-org | Qwen 3 | 4B-Instruct-2507 | Q8_0 | ❌ (not enough vram) | [qwen3-4b-instruct-2507-q8_0.gguf](https://huggingface.co/ggml-org/Qwen3-4B-Instruct-2507-Q8_0-GGUF/blob/main/qwen3-4b-instruct-2507-q8_0.gguf) |
 | ggml-org | Qwen 3 | 4B-Thinking-2507 | Q8_0 | ❌ (not enough vram) | [qwen3-4b-thinking-2507-q8_0.gguf](https://huggingface.co/ggml-org/Qwen3-4B-Thinking-2507-Q8_0-GGUF/blob/main/qwen3-4b-thinking-2507-q8_0.gguf) |
+
+---
+
+# Ollama
+
+| model | parameter | quantization | num_gpu | num_ctx |
+| --- | --- | --- | --- | --- |
+| granite4.1:3b-q4_K_M | 3b | q4_K_M | 41 | 30720 (30k) |
+| qwen3.5:0.8b-q8_0 | 0.8b | q8_0 | 0 | 62464 (61k) |
+| qwen3.5:2b-q4_K_M | 2b | q4_K_M | 0 | 21504 (21k) |
