@@ -36,7 +36,6 @@
 > ### Anything between here and the comment below will become the contents of the drop-in file
 > 
 > [Service]
-> Environment="OLLAMA_MAX_LOADED_MODELS=1"
 > Environment="OLLAMA_FLASH_ATTENTION=1"
 > Environment="OLLAMA_KV_CACHE_TYPE=q8_0"
 >
