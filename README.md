@@ -25,8 +25,36 @@
 
 # Ollama
 
+> [!TIP]
+> maximum context size using KV cache q8_0. to set q8_0 for KV cache:
+> ```
+> sudo systemctl edit ollama.service
+> ```
+> inside the file, make sure to input the environments like this:
+> ```
+> ### Editing /etc/systemd/system/ollama.service.d/override.conf
+> ### Anything between here and the comment below will become the contents of the drop-in file
+> 
+> [Service]
+> Environment="OLLAMA_MAX_LOADED_MODELS=1"
+> Environment="OLLAMA_FLASH_ATTENTION=1"
+> Environment="OLLAMA_KV_CACHE_TYPE=q8_0"
+>
+> ### Edits below this comment will be discarded
+>
+>
+> ### /etc/systemd/system/ollama.service
+> # [Unit]
+> # Description=Ollama Service
+> # After=network-online.target 
+> ```
+> To change num_gpu and num_ctx, type this after running `ollama run <model>`:
+> ```
+> /set parameter num_gpu <num_gpu>
+> /set parameter num_ctx <num_ctx>
+> ```
 | model | parameter | quantization | num_gpu | num_ctx |
 | --- | --- | --- | --- | --- |
 | granite4.1:3b-q4_K_M | 3b | q4_K_M | 41 | 30720 (30k) |
-| qwen3.5:0.8b-q8_0 | 0.8b | q8_0 | 0 | 62464 (61k) |
-| qwen3.5:2b-q4_K_M | 2b | q4_K_M | 0 | 21504 (21k) |
+| qwen3.5:0.8b-q8_0 | 0.8b | q8_0 | 25 | 62464 (61k) |
+| qwen3.5:2b-q4_K_M | 2b | q4_K_M | 25 | 21504 (21k) |
