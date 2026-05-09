@@ -48,6 +48,12 @@
 > # Description=Ollama Service
 > # After=network-online.target 
 > ```
+> and then run:
+> ```
+> sudo systemctl daemon-reload
+> sudo systemctl restart ollama.service
+> ```
+> 
 > To change num_gpu and num_ctx, type this after running `ollama run <model>`:
 > ```
 > /set parameter num_gpu <num_gpu>
