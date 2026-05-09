@@ -61,6 +61,7 @@
 | model | parameter | quantization | num_gpu | num_ctx |
 | --- | --- | --- | --- | --- |
 | granite4.1:3b-q2_K | 3b | q2_K | 41 | 48128 (47k) |
+| granite4.1:3b-q4_K_S | 3b | q4_K_S | 41 | 32768 (32k) |
 | granite4.1:3b-q4_K_M | 3b | q4_K_M | 41 | 30720 (30k) |
 | qwen3.5:0.8b-q8_0 | 0.8b | q8_0 | 25 | 95232 (93k) |
 | qwen3.5:2b-q4_K_M | 2b | q4_K_M | 25 | 46080 (45k) |
