@@ -72,6 +72,7 @@
 | ministral-3:3b-instruct-2512-q4_K_M | 3b | q4_K_M | 26 (of 27) | 4096 (4k) |
 | nemotron-mini:4b-instruct-q4_K_M | 4b | q4_K_M | 33 | 4096 (4k) |
 | phi4-mini:3.8b-q4_K_M | 3.8b | q4_K_M | 33 | 11264 (11k) |
+| qwen2.5:0.5b-instruct-q8_0 | 0.5b | q8_0 | 25 | 32768 (32k) |
 | qwen2.5-coder:0.5b-instruct-q8_0 | 0.5b | q8_0 | 25 | 32768 (32k) |
 | qwen2.5-coder:1.5b-instruct-q8_0 | 1.5b | q8_0 | 29 | 32768 (32k) |
 | qwen2.5-coder:3b-instruct-q6_K | 3b | q6_K | 37 | 32768 (32k) |
