@@ -75,6 +75,7 @@
 | qwen2.5:0.5b-instruct-q8_0 | 0.5b | q8_0 | 25 | 32768 (32k) |
 | qwen2.5:1.5b-instruct-q8_0 | 1.5b | q8_0 | 29 | 32768 (32k) |
 | qwen2.5:3b-instruct-q8_0 | 3b | q8_0 | 37 | 8192 (8k) |
+| qwen2.5:3b-instruct-q8_0 | 3b | q8_0 | 31 (of 37) | 32768 (32k) |
 | qwen2.5-coder:0.5b-instruct-q8_0 | 0.5b | q8_0 | 25 | 32768 (32k) |
 | qwen2.5-coder:1.5b-instruct-q8_0 | 1.5b | q8_0 | 29 | 32768 (32k) |
 | qwen2.5-coder:3b-instruct-q6_K | 3b | q6_K | 37 | 32768 (32k) |
