@@ -66,6 +66,7 @@
 | granite4.1:3b-q4_K_S | 3b | q4_K_S | 41 | 32768 (32k) |
 | granite4.1:3b-q4_K_M | 3b | q4_K_M | 41 | 30720 (30k) |
 | llama3.2:3b-instruct-q4_K_M | 3b | q4_K_M | 29 | 22528 (22k) |
+| ministral-3:3b-instruct-2512-q4_K_M | 3b | q4_K_M | 26 (of 27) | 4096 (4k) |
 | nemotron-mini:4b-instruct-q4_K_M | 4b | q4_K_M | 33 | 4096 (4k) |
 | phi4-mini:3.8b-q4_K_M | 3.8b | q4_K_M | 33 | 11264 (11k) |
 | qwen3:4b-instruct-2507-q4_K_M | 4b | q4_K_M | 37 | 13312 (13k) |
