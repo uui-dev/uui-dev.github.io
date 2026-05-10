@@ -62,6 +62,7 @@
 | --- | --- | --- | --- | --- |
 | cogito:3b-v1-preview-llama-q4_K_M | 3b | q4_K_M | 29 | 22528 (22k) |
 | gemma3:4b-it-q4_K_M | 4b | q4_K_M | 35 | 13312 (13k) |
+| granite4:3b-h | 3.2b | q4_K_M | 41 | 130048 (127k) |
 | granite4.1:3b-q2_K | 3b | q2_K | 41 | 48128 (47k) |
 | granite4.1:3b-q4_K_S | 3b | q4_K_S | 41 | 32768 (32k) |
 | granite4.1:3b-q4_K_M | 3b | q4_K_M | 41 | 30720 (30k) |
