@@ -62,6 +62,7 @@
 | model | parameter | quantization | num_gpu | num_ctx |
 | --- | --- | --- | --- | --- |
 | cogito:3b-v1-preview-llama-q4_K_M | 3b | q4_K_M | 29 | 22528 (22k) |
+| deepseek-r1:1.5b-qwen-distill-q4_K_M | 1.5b | q4_K_M | 29 | 98304 (96k) |
 | gemma3:4b-it-q4_K_M | 4b | q4_K_M | 35 | 13312 (13k) |
 | granite4:3b-h | 3.2b | q4_K_M | 41 | 130048 (127k) |
 | granite4:7b-a1b-h | 7b | q4_K_M | 33 (of 41) | 4096 (4k) |
