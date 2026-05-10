@@ -58,6 +58,7 @@
 > /set parameter num_gpu <num_gpu>
 > /set parameter num_ctx <num_ctx>
 > ```
+
 | model | parameter | quantization | num_gpu | num_ctx |
 | --- | --- | --- | --- | --- |
 | cogito:3b-v1-preview-llama-q4_K_M | 3b | q4_K_M | 29 | 22528 (22k) |
